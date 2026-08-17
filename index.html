@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>
+        BAJAKUKIRIZAPROPERTIES | Land & Property in Uganda
+    </title>
+
+    <meta name="description"
+          content="BAJAKUKIRIZAPROPERTIES offers affordable land and property opportunities across Uganda with free site inspection.">
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     NAVIGATION
+===================================================== -->
+
+<header>
+
+    <div class="container nav">
+
+        <a href="#home"
+           class="logo">
+
+            <div class="logo-mark">
+                BP
+            </div>
+
+            <div class="logo-text">
+
+                BAJAKUKIRIZA
+                <strong>
+                    PROPERTIES
+                </strong>
+
+            </div>
+
+        </a>
+
+
+        <button class="menu-button"
+                id="menuButton">
+
+            ☰
+
+        </button>
+
+
+        <nav id="navigation">
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#properties">
+                Properties
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#about">
+                About
+            </a>
+
+            <a href="#submit">
+                List Property
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+            <a class="call-button"
+               href="tel:0708759877">
+
+                Call Us
+
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+     HERO
+===================================================== -->
+
+<section class="hero"
+         id="home">
+
+    <div class="hero-overlay"></div>
+
+
+    <div class="container hero-content">
+
+        <div class="free-inspection">
+
+            ✓ FREE SITE INSPECTION AVAILABLE
+
+        </div>
+
+
+        <p class="hero-small">
+
+            TRUSTED PROPERTY OPPORTUNITIES IN UGANDA
+
+        </p>
+
+
+        <h1>
+
+            Find Land.
+            <br>
+
+            <span>Build Your Future.</span>
+
+        </h1>
+
+
+        <p class="hero-description">
+
+            Discover affordable and strategically located
+            plots of land in Uganda for homes, farming,
+            business and investment.
+
+        </p>
+
+
+        <div class="hero-buttons">
+
+            <a href="#properties"
+               class="button gold">
+
+                Explore Our Sites
+
+            </a>
+
+
+            <a href="https://wa.me/256708759877?text=Hello%20BAJAKUKIRIZAPROPERTIES%2C%20I%20would%20like%20to%20know%20about%20your%20available%20properties."
+               target="_blank"
+               class="button whatsapp">
+
+                WhatsApp Us
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROPERTY SEARCH
+===================================================== -->
+
+<section class="search-area">
+
+    <div class="container search-box">
+
+        <div>
+
+            <label>
+                Location
+            </label>
+
+            <select id="locationFilter">
+
+                <option value="all">
+                    All Locations
+                </option>
+
+                <option value="namayumba">
+                    Namayumba
+                </option>
+
+                <option value="gobero">
+                    Gobero
+                </option>
+
+                <option value="kakiri">
+                    Kakiri
+                </option>
+
+                <option value="kikandwa">
+                    Kikandwa
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div>
+
+            <label>
+                Property Type
+            </label>
+
+            <select id="typeFilter">
+
+                <option value="all">
+                    All Types
+                </option>
+
+                <option value="land">
+                    Land
+                </option>
+
+                <option value="residential">
+                    Residential
+                </option>
+
+                <option value="commercial">
+                    Commercial
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <div>
+
+            <label>
+                Distance From Main Road
+            </label>
+
+            <select id="distanceFilter">
+
+                <option value="all">
+                    Any Distance
+                </option>
+
+                <option value="1">
+                    1 KM
+                </option>
+
+                <option value="3">
+                    3 KM
+                </option>
+
+                <option value="near">
+                    Near Main Road
+                </option>
+
+            </select>
+
+        </div>
+
+
+        <button class="button dark"
+                onclick="searchProperties()">
+
+            Search Properties
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROPERTIES
+===================================================== -->
+
+<section class="section"
+         id="properties">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="gold-text eyebrow">
+
+                    AVAILABLE SITES
+
+                </p>
+
+                <h2>
+
+                    Find Your Perfect
+                    <br>
+                    Piece of Uganda
+
+                </h2>
+
+            </div>
+
+
+            <p>
+
+                Explore our available land opportunities,
+                including their prices and distance from
+                the main road.
+
+            </p>
+
+        </div>
+
+
+
+        <div class="property-grid"
+             id="propertyGrid">
+
+
+            <!-- NAMAYUMBA -->
+
+            <article class="property-card"
+                     data-location="namayumba"
+                     data-type="land"
+                     data-distance="3">
+
+                <div class="property-image namayumba">
+
+                    <span class="status">
+                        AVAILABLE
+                    </span>
+
+                    <span class="property-price">
+                        UGX 10–15M
+                    </span>
+
+                </div>
+
+
+                <div class="property-content">
+
+                    <p class="property-category">
+                        LAND • NAMAYUMBA
+                    </p>
+
+                    <h3>
+                        Namayumba Land
+                    </h3>
+
+                    <p>
+                        Affordable plots in a growing
+                        area suitable for residential
+                        development and investment.
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>
+                            📍 Namayumba
+                        </span>
+
+                        <span>
+                            🛣️ 3 KM from Hoima Road
+                        </span>
+
+                    </div>
+
+
+                    <div class="property-footer">
+
+                        <strong>
+                            UGX 10–15 Million
+                        </strong>
+
+                        <button onclick="openInquiry('Namayumba')">
+                            Inquire
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- GOBERO 1KM -->
+
+            <article class="property-card"
+                     data-location="gobero"
+                     data-type="land"
+                     data-distance="1">
+
+                <div class="property-image gobero1">
+
+                    <span class="status">
+                        POPULAR
+                    </span>
+
+                    <span class="property-price">
+                        UGX 25M
+                    </span>
+
+                </div>
+
+
+                <div class="property-content">
+
+                    <p class="property-category">
+                        LAND • GOBERO
+                    </p>
+
+                    <h3>
+                        Gobero Prime Site
+                    </h3>
+
+                    <p>
+                        Strategically located land with
+                        easy access to the main Hoima Road.
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>
+                            📍 Gobero
+                        </span>
+
+                        <span>
+                            🛣️ 1 KM from Hoima Road
+                        </span>
+
+                    </div>
+
+
+                    <div class="property-footer">
+
+                        <strong>
+                            UGX 25 Million
+                        </strong>
+
+                        <button onclick="openInquiry('Gobero 1KM')">
+                            Inquire
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- GOBERO 3KM -->
+
+            <article class="property-card"
+                     data-location="gobero"
+                     data-type="land"
+                     data-distance="3">
+
+                <div class="property-image gobero2">
+
+                    <span class="status">
+                        AVAILABLE
+                    </span>
+
+                    <span class="property-price">
+                        UGX 12–15M
+                    </span>
+
+                </div>
+
+
+                <div class="property-content">
+
+                    <p class="property-category">
+                        LAND • GOBERO
+                    </p>
+
+                    <h3>
+                        Gobero Investment Plots
+                    </h3>
+
+                    <p>
+                        Affordable plots in a developing
+                        location with good investment potential.
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>
+                            📍 Gobero
+                        </span>
+
+                        <span>
+                            🛣️ 3 KM from Hoima Road
+                        </span>
+
+                    </div>
+
+
+                    <div class="property-footer">
+
+                        <strong>
+                            UGX 12–15 Million
+                        </strong>
+
+                        <button onclick="openInquiry('Gobero 3KM')">
+                            Inquire
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- KAKIRI NEAR ROAD -->
+
+            <article class="property-card"
+                     data-location="kakiri"
+                     data-type="land"
+                     data-distance="near">
+
+                <div class="property-image kakiri1">
+
+                    <span class="status">
+                        PREMIUM
+                    </span>
+
+                    <span class="property-price">
+                        UGX 35–45M
+                    </span>
+
+                </div>
+
+
+                <div class="property-content">
+
+                    <p class="property-category">
+                        LAND • KAKIRI
+                    </p>
+
+                    <h3>
+                        Kakiri Main Road Sites
+                    </h3>
+
+                    <p>
+                        Prime land located near the main
+                        road with strong development potential.
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>
+                            📍 Kakiri
+                        </span>
+
+                        <span>
+                            🛣️ Near Main Road
+                        </span>
+
+                    </div>
+
+
+                    <div class="property-footer">
+
+                        <strong>
+                            UGX 35–45 Million
+                        </strong>
+
+                        <button onclick="openInquiry('Kakiri Main Road')">
+                            Inquire
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- KAKIRI 3KM -->
+
+            <article class="property-card"
+                     data-location="kakiri"
+                     data-type="land"
+                     data-distance="3">
+
+                <div class="property-image kakiri2">
+
+                    <span class="status">
+                        AVAILABLE
+                    </span>
+
+                    <span class="property-price">
+                        UGX 18–25M
+                    </span>
+
+                </div>
+
+
+                <div class="property-content">
+
+                    <p class="property-category">
+                        LAND • KAKIRI
+                    </p>
+
+                    <h3>
+                        Kakiri Residential Sites
+                    </h3>
+
+                    <p>
+                        Suitable for homes and long-term
+                        property investment.
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>
+                            📍 Kakiri
+                        </span>
+
+                        <span>
+                            🛣️ 3 KM from Main Road
+                        </span>
+
+                    </div>
+
+
+                    <div class="property-footer">
+
+                        <strong>
+                            UGX 18–25 Million
+                        </strong>
+
+                        <button onclick="openInquiry('Kakiri 3KM')">
+                            Inquire
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+
+            <!-- KIKANDWA -->
+
+            <article class="property-card"
+                     data-location="kikandwa"
+                     data-type="land"
+                     data-distance="1">
+
+                <div class="property-image kikandwa">
+
+                    <span class="status">
+                        INVESTMENT
+                    </span>
+
+                    <span class="property-price">
+                        UGX 20–35M
+                    </span>
+
+                </div>
+
+
+                <div class="property-content">
+
+                    <p class="property-category">
+                        LAND • KIKANDWA
+                    </p>
+
+                    <h3>
+                        Kikandwa Investment Land
+                    </h3>
+
+                    <p>
+                        Attractive land opportunity close
+                        to the main road.
+                    </p>
+
+
+                    <div class="property-details">
+
+                        <span>
+                            📍 Kikandwa
+                        </span>
+
+                        <span>
+                            🛣️ 1 KM from Main Road
+                        </span>
+
+                    </div>
+
+
+                    <div class="property-footer">
+
+                        <strong>
+                            UGX 20–35 Million
+                        </strong>
+
+                        <button onclick="openInquiry('Kikandwa')">
+                            Inquire
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FREE INSPECTION
+===================================================== -->
+
+<section class="inspection">
+
+    <div class="container inspection-content">
+
+        <div class="inspection-icon">
+            🚜
+        </div>
+
+
+        <div>
+
+            <p class="eyebrow">
+                OUR SPECIAL OFFER
+            </p>
+
+            <h2>
+                FREE SITE INSPECTION
+            </h2>
+
+            <p>
+                Want to see the land before making
+                a decision? We arrange free site
+                inspections for interested clients.
+            </p>
+
+        </div>
+
+
+        <a href="https://wa.me/256708759877?text=Hello%20BAJAKUKIRIZAPROPERTIES%2C%20I%20would%20like%20to%20book%20a%20FREE%20site%20inspection."
+           target="_blank"
+           class="button dark">
+
+            Book Inspection
+
+        </a>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     SERVICES
+===================================================== -->
+
+<section class="section light"
+         id="services">
+
+    <div class="container">
+
+
+        <div class="center-heading">
+
+            <p class="eyebrow gold-text">
+                OUR SERVICES
+            </p>
+
+            <h2>
+                Everything You Need
+                For Your Property Journey
+            </h2>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    🌍
+                </div>
+
+                <h3>
+                    Land Sales
+                </h3>
+
+                <p>
+                    Find affordable land for residential,
+                    farming, business and investment purposes.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    🚜
+                </div>
+
+                <h3>
+                    Free Site Inspection
+                </h3>
+
+                <p>
+                    Visit available properties before
+                    making your final decision.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    📋
+                </div>
+
+                <h3>
+                    Property Listing
+                </h3>
+
+                <p>
+                    Property owners can submit their
+                    properties for consideration and approval.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <div class="service-icon">
+                    🤝
+                </div>
+
+                <h3>
+                    Property Guidance
+                </h3>
+
+                <p>
+                    We help clients understand available
+                    property opportunities.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     ABOUT
+===================================================== -->
+
+<section class="section about"
+         id="about">
+
+    <div class="container about-grid">
+
+
+        <div class="about-photo">
+
+            <div class="about-label">
+
+                <strong>
+                    BP
+                </strong>
+
+                <span>
+                    BAJAKUKIRIZA
+                    PROPERTIES
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-text">
+
+            <p class="eyebrow gold-text">
+                ABOUT US
+            </p>
+
+            <h2>
+                Making Property
+                Opportunities Easier
+                To Find.
+            </h2>
+
+            <p>
+                BAJAKUKIRIZAPROPERTIES is a Ugandan
+                real estate platform connecting people
+                with land and property opportunities.
+            </p>
+
+            <p>
+                We focus on providing clear information
+                about location, price and distance from
+                major roads so customers can make better
+                decisions.
+            </p>
+
+
+            <ul>
+
+                <li>
+                    ✓ Affordable property opportunities
+                </li>
+
+                <li>
+                    ✓ Clear location information
+                </li>
+
+                <li>
+                    ✓ Free site inspection
+                </li>
+
+                <li>
+                    ✓ Direct WhatsApp communication
+                </li>
+
+            </ul>
+
+
+            <a href="#contact"
+               class="button dark">
+
+                Contact Us
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     PROPERTY SUBMISSION
+===================================================== -->
+
+<section class="section submit-section"
+         id="submit">
+
+    <div class="container">
+
+
+        <div class="section-heading">
+
+            <div>
+
+                <p class="eyebrow gold-text">
+                    PROPERTY OWNERS
+                </p>
+
+                <h2>
+                    Want To List Your Property?
+                </h2>
+
+            </div>
+
+            <p>
+
+                Property owners can submit their
+                property for consideration. Every
+                submission is reviewed before it
+                appears publicly.
+
+            </p>
+
+        </div>
+
+
+        <form id="propertySubmissionForm"
+              class="submission-form">
+
+
+            <input
+                type="text"
+                id="ownerName"
+                placeholder="Your Name"
+                required
+            >
+
+
+            <input
+                type="tel"
+                id="ownerPhone"
+                placeholder="Your Phone Number"
+                required
+            >
+
+
+            <input
+                type="text"
+                id="propertyLocation"
+                placeholder="Property Location"
+                required
+            >
+
+
+            <input
+                type="text"
+                id="propertyPrice"
+                placeholder="Expected Price in UGX"
+                required
+            >
+
+
+            <input
+                type="text"
+                id="roadDistance"
+                placeholder="Distance From Main Road"
+                required
+            >
+
+
+            <textarea
+                id="propertyDescription"
+                rows="5"
+                placeholder="Describe your property..."
+                required
+            ></textarea>
+
+
+            <button
+                type="submit"
+                class="button gold">
+
+                Submit Property
+                For Approval
+
+            </button>
+
+
+            <p class="form-note">
+
+                Your property will not appear
+                publicly until it has been reviewed
+                and approved by BAJAKUKIRIZAPROPERTIES.
+
+            </p>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CUSTOMER COMMENTS
+===================================================== -->
+
+<section class="section comments-section">
+
+    <div class="container">
+
+        <div class="center-heading">
+
+            <p class="eyebrow gold-text">
+                CUSTOMER FEEDBACK
+            </p>
+
+            <h2>
+                What Our Customers Say
+            </h2>
+
+        </div>
+
+
+        <div id="commentsList"
+             class="comments-list">
+
+
+            <div class="comment">
+
+                <div class="comment-avatar">
+                    A
+                </div>
+
+                <div>
+
+                    <strong>
+                        Happy Customer
+                    </strong>
+
+                    <p>
+                        The free site inspection made it
+                        easier for me to understand the
+                        location before buying.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="comment">
+
+                <div class="comment-avatar">
+                    J
+                </div>
+
+                <div>
+
+                    <strong>
+                        Property Client
+                    </strong>
+
+                    <p>
+                        I liked the clear information about
+                        the distance from the main road.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form id="commentForm"
+              class="comment-form">
+
+            <h3>
+                Leave A Comment
+            </h3>
+
+
+            <input
+                type="text"
+                id="commentName"
+                placeholder="Your Name"
+                required
+            >
+
+
+            <textarea
+                id="commentText"
+                rows="4"
+                placeholder="Write your comment..."
+                required
+            ></textarea>
+
+
+            <button
+                class="button dark"
+                type="submit">
+
+                Post Comment
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     CONTACT
+===================================================== -->
+
+<section class="section contact"
+         id="contact">
+
+    <div class="container contact-grid">
+
+
+        <div>
+
+            <p class="eyebrow gold-text">
+                GET IN TOUCH
+            </p>
+
+            <h2>
+                Let's Talk Property.
+            </h2>
+
+            <p>
+                Contact BAJAKUKIRIZAPROPERTIES
+                for available properties,
+                inquiries and free inspections.
+            </p>
+
+
+            <div class="contact-item">
+
+                <span>
+                    ☎
+                </span>
+
+                <div>
+
+                    <strong>
+                        Call
+                    </strong>
+
+                    <a href="tel:0708759877">
+                        0708759877
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <span>
+                    💬
+                </span>
+
+                <div>
+
+                    <strong>
+                        WhatsApp
+                    </strong>
+
+                    <a href="https://wa.me/256708759877"
+                       target="_blank">
+
+                        0708759877
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <span>
+                    ✉
+                </span>
+
+                <div>
+
+                    <strong>
+                        Email
+                    </strong>
+
+                    <a href="mailto:kibiraarnold8@gmail.com">
+
+                        kibiraarnold8@gmail.com
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <span>
+                    🎵
+                </span>
+
+                <div>
+
+                    <strong>
+                        TikTok
+                    </strong>
+
+                    <a href="https://www.tiktok.com/@kibiraarnold4"
+                       target="_blank">
+
+                        @kibiraarnold4
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="contactName"
+                placeholder="Your Name"
+                required
+            >
+
+
+            <input
+                type="tel"
+                id="contactPhone"
+                placeholder="Your Phone Number"
+                required
+            >
+
+
+            <input
+                type="email"
+                id="contactEmail"
+                placeholder="Your Email"
+            >
+
+
+            <textarea
+                id="contactMessage"
+                rows="7"
+                placeholder="How can we help you?"
+                required
+            ></textarea>
+
+
+            <button
+                type="submit"
+                class="button dark">
+
+                Send Inquiry
+
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+
+<!-- =====================================================
+     FOOTER
+===================================================== -->
+
+<footer>
+
+    <div class="container footer-grid">
+
+
+        <div>
+
+            <div class="footer-logo">
+
+                <div class="logo-mark">
+                    BP
+                </div>
+
+                <div>
+                    BAJAKUKIRIZA
+                    <strong>
+                        PROPERTIES
+                    </strong>
+                </div>
+
+            </div>
+
+
+            <p>
+                Find Land. Build Your Future.
+            </p>
+
+            <p>
+                🇺🇬 Uganda
+            </p>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Quick Links
+            </h4>
+
+            <a href="#home">
+                Home
+            </a>
+
+            <a href="#properties">
+                Properties
+            </a>
+
+            <a href="#services">
+                Services
+            </a>
+
+            <a href="#contact">
+                Contact
+            </a>
+
+        </div>
+
+
+        <div>
+
+            <h4>
+                Contact
+            </h4>
+
+            <a href="tel:0708759877">
+                0708759877
+            </a>
+
+            <a href="mailto:kibiraarnold8@gmail.com">
+                kibiraarnold8@gmail.com
+            </a>
+
+            <a href="https://www.tiktok.com/@kibiraarnold4"
+               target="_blank">
+
+                TikTok: @kibiraarnold4
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="copyright">
+
+        © 2026 BAJAKUKIRIZAPROPERTIES.
+        All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+
+<!-- FLOATING WHATSAPP -->
+
+<a class="floating-whatsapp"
+   href="https://wa.me/256708759877"
+   target="_blank">
+
+    💬
+
+</a>
+
+
+
+<!-- INQUIRY MODAL -->
+
+<div id="inquiryModal"
+     class="modal">
+
+    <div class="modal-box">
+
+        <button class="close-modal"
+                onclick="closeInquiry()">
+
+            ×
+
+        </button>
+
+        <h2>
+            Property Inquiry
+        </h2>
+
+        <p id="selectedProperty"></p>
+
+
+        <a id="modalWhatsApp"
+           href="#"
+           target="_blank"
+           class="button whatsapp">
+
+            Ask About This Property
+
+        </a>
+
+
+        <a href="tel:0708759877"
+           class="button dark">
+
+            Call 0708759877
+
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
